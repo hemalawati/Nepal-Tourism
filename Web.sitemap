@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/Introduction.aspx" title="Home"  description="Go to Home Page">
+    <siteMapNode url="~/History.aspx" title="History"  description="Go to History" />
+    <siteMapNode url="~/Arts and Culture.aspx" title="Arts and Culture"  description="Go to Arts and Culture" />
+    <siteMapNode url="~/Physical Divisions.aspx" title="Physical Divisions"  description="Go to Physical Divisions" />
+    <siteMapNode url="~/Flora and Fauna.aspx" title="Flora and Fauna"  description="Go to Flora and Fauna" />
+    <siteMapNode url="~/Tourism.aspx" title="Tourism"  description="Go to Tourism" />
+    <siteMapNode url="~/Transportation.aspx" title="Transportation"  description="Go to Transportation" />
+  </siteMapNode>
+</siteMap>

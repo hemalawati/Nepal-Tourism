@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" id="html">
+<head runat="server">
+    <title>Around the Himalayan Kingdom, Nepal</title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="Content/Site.css" rel="stylesheet" />
+    <link href="Content/Introduction.css" rel="stylesheet" />
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <%--<form id="form1" runat="server">--%>
+    <div style="float: right;">
+        <form class="navbar-form navbar-left">
+            <input type="text" class="form-control col-lg-8" placeholder="Search" />
+        </form>
+    </div>
+
+    <div id="panel" style="font-style: italic; color: #f50a0a;">
+        <h1>
+            <img src="~/Content/Images/nepalFlag.jpg" style="width: 59px; height: 40px; margin-top: 6px;" runat="server" />
+            Around the Himalayan Kingdom, Nepal
+ 
+        </h1>
+
+        <hr />
+
+        <div id="banner"></div>
+        <hr />
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+        <div style="font-size: 18px; height: 330px; width: 200px; font-weight: bold; background-color: lightblue; border: 3px solid #081a7d;">
+            <ul class="nav nav-pillss nav-stacked">
+                <li>
+                    <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/Introduction.aspx">Introduction</asp:HyperLink></li>
+                <li>
+                    <asp:HyperLink ID="HyperLink9" runat="server" NavigateUrl="~/History.aspx">History</asp:HyperLink></li>
+                <li>
+                    <asp:HyperLink ID="HyperLink10" runat="server" NavigateUrl="~/Arts and Culture.aspx">Arts and Culture</asp:HyperLink></li>
+                <li>
+                    <asp:HyperLink ID="HyperLink11" runat="server" NavigateUrl="~/Flora and Fauna.aspx">Flora and Fauna</asp:HyperLink></li>
+                <li>
+                    <asp:HyperLink ID="HyperLink12" runat="server" NavigateUrl="~/Physical Divisions.aspx">Physical Divisions</asp:HyperLink></li>
+                <li>
+                    <asp:HyperLink ID="HyperLink13" runat="server" NavigateUrl="~/Tourism.aspx">Tourism</asp:HyperLink></li>
+                <li>
+                    <asp:HyperLink ID="HyperLink14" runat="server" NavigateUrl="~/Transportation.aspx">Transportation</asp:HyperLink></li>
+            </ul>
+
+
+        </div>
+
+
+    </div>
+    <%-- </form>--%>
+</body>
+</html>

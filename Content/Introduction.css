@@ -1,0 +1,23 @@
+﻿.introPara {
+    /*background-image: url('Images/Mount Everest.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #808080;
+    border: dotted;
+    border-width: 0px 1px 1px 0px;
+    border-color:whitesmoke;
+    margin-left: 20%;
+    text-align:justify;
+    display:inline-block;*/
+    padding: 1em;
+    margin-left: 180px;
+    margin-right: 20px;
+    border-color: #808080;
+    border-style: dotted;
+    border-width: 0px 1px 1px 1px;
+    display: inline-block;
+    background-color: #808080;
+    /*background-image: url('Images/Mount Everest.jpg');*/
+    background-repeat: no-repeat;
+  
+}

@@ -1,0 +1,33 @@
+﻿
+body {
+    background-image: url('Images/nepalBackground.jpg');
+    background-size: cover;
+}
+
+#panel {
+    width: 1020px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#banner {
+    background-image: url('Images/nepalBanner.jpg');
+    height: 100px;
+    border: 3px solid #081a7d;
+}
+
+#heading {
+    margin-left: 20px;
+    font-weight: bold 100;
+    font-size: 30px;
+    color: orangered;
+}
+
+p {
+    background-color: lightblue;
+    border: 3px solid #081a7d;
+    color: darkred;
+    float:right;
+    width:75%;
+    padding:10px 10px 10px 10px;  
+}
